@@ -7,10 +7,6 @@ app = Flask(__name__)
 def hello(name="World"):
     return f'Hello, {name}!'
 
-@app.route("/smile")
-def smiles():
-    return '😀'
-
 @app.route('/health')
 def health():
     return Response("👍", status=418)
