@@ -14,5 +14,4 @@ jobs:
         SLACK_COLOR: ${{ job.status }}
         SLACK_TITLE: git-log
         SLACK_USERNAME: gitBot
-        SLACK_ICON: https://www.pinclipart.com/picdir/middle/197-1979961_github-icon-vector-git-branch-icon-png-clipart.png
-        SLACK_MESSAGE: 'Post Content :rocket:'
+        SLACK_ICON: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
