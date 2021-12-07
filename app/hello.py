@@ -9,7 +9,7 @@ def hello(name="World"):
 
 @app.route("/smile")
 def smiles():
-    return '😊'
+    return '😀'
 
 @app.route('/health')
 def health():
