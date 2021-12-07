@@ -12,4 +12,7 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_CHANNEL: git-log
         SLACK_COLOR: ${{ job.status }}
-        SLACK_TITLE: git-things
+        SLACK_TITLE: git-log
+        SLACK_USERNAME: gitBot
+        SLACK_ICON: https://www.pinclipart.com/picdir/middle/197-1979961_github-icon-vector-git-branch-icon-png-clipart.png
+        SLACK_MESSAGE: 'Post Content :rocket:'
